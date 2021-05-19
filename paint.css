@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #abcdef;
+}
+
+#head {
+
+
+    margin: 0 auto;
+}
+
+#head p {
+    font-size: 40px;
+    text-align: center;
+    line-height: 80px;
+}
+
+#draw_board {
+
+    background: #808080;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+#menu {
+    width: 175px;
+    height: 160px;
+
+    margin-left: 10px;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    height: 160px;
+    width: 175px;
+
+    text-align: center;
+}
+
+#function ul li {
+    width: 170px;
+    height: 35px;
+    border: 0;
+    line-height: 35px;
+}
+
+#save_pic button {
+    background: #808080;
+}
+
+#clear_pic button {
+    background: #808080;
+}
+
+#tools ul,
+#shape ul,
+#line ul,
+#color ul {
+    padding: 10px 15px;
+}
+
+#tools ul li,
+#shape ul li,
+#line ul li {
+    width: 45px;
+    height: 30px;
+    line-height: 30px;
+	
+	background-color: #f1f1f1;
+	border-color: #e4e4e4;
+	display: inline-block;
+	padding: 0 10px;
+	color: #727272;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	white-space: nowrap;
+	cursor: pointer;
+	transition: all 0.15s ease-in-out;
+	box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+#tools ul li:hover,
+#shape ul li:hover,
+#line ul li:hover {
+	background-color: #ffffff!important;
+}
+
+#tools ul li img,
+#shape ul li img {
+    width: 25px;
+    height: 25px;
+}
+
+#line ul li {
+    width: 135px;
+    height: 25px;
+    border: 0;
+    line-height: 25px;
+    margin-bottom: 3px;
+}
+
+#line ul li img {
+    width: 150px;
+    height: 8px;
+}
+
+#color ul li {
+    width: 25px;
+    height: 25px;
+    border: 1px black solid;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+#red {
+    background: red;
+}
+
+#green {
+    background: green;
+}
+
+#blue {
+    background: blue;
+}
+
+#yellow {
+    background: yellow;
+}
+
+#white {
+    background: white;
+}
+
+#black {
+    background: black;
+}
+
+#pink {
+    background: pink;
+}
+
+#purple {
+    background: purple;
+}
+
+#cyan {
+    background: cyan;
+}
+
+#orange {
+    background: orange;
+}
+
+#mycanvas {
+    position: fixed;
+    background: #fff;
+    top: 80px;
+}
+
+#foot {
+    width: 900px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+#foot small {
+    text-align: center;
+    display: block;
+}
+
+#menu span{
+	font-size: 20px;
+}
